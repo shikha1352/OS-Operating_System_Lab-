@@ -22,7 +22,7 @@ int main() {
 void *thread_function(void *argc) {
     printf("Inside Child Thread\n");
     int *x = (int *)argc;
-    int sum = x[0] + x[1];
+    int sum = x[0] + x[1]; 
     printf("Sum is %d\n", sum);
     pthread_exit("sum calculated");
 }

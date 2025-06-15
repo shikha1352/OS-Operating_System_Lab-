@@ -1,9 +1,11 @@
 #!/bin/bash
 
-echo -n "Enter first number: "
-read A
-echo -n "Enter second number: "
-read B
+# echo -n "Enter first number: "
+# read A
+# echo -n "Enter second number: "
+# read B
+A=$1
+B=$2
 
 echo "Sum is $(( A + B))"
 echo "Difference is $(( A - B))"
